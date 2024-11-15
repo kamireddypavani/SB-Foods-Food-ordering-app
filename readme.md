@@ -1,97 +1,70 @@
-# SBFoods 🍲
+# Getting Started with Create React App
 
-Welcome to *SBFoods*, a convenient and user-friendly food delivery app built with the MERN stack (MongoDB, Express.js, React, Node.js). SBFoods allows users to browse a wide variety of cuisines, customize orders, and have food delivered directly to their doorstep.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Features 🚀
+## Available Scripts
 
-- *User Authentication*: Secure login and signup functionality using JWT.
-- *Browse Menu*: View diverse food options with categories, detailed descriptions, and prices.
-- *Add to Cart*: Easily add or remove items from your cart.
-- *Order Tracking*: Track your orders in real-time.
-- *Payment Integration*: Integrated payment gateway for a smooth checkout experience.
-- *Admin Dashboard*: Admins can manage menu items, view orders, and update delivery statuses.
+In the project directory, you can run:
 
-## Tech Stack 🛠️
+### `npm start`
 
-- *Frontend*: React.js, Redux for state management, Axios for API calls, CSS for styling
-- *Backend*: Node.js, Express.js
-- *Database*: MongoDB (Atlas)
-- *Authentication*: JWT for user sessions
-- *Payment Integration*: Stripe API (or similar)
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## Getting Started 🎉
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-Follow these steps to set up the project locally:
+### `npm test`
 
-### Prerequisites
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-- [Node.js](https://nodejs.org/) and npm installed
-- [MongoDB Atlas](https://www.mongodb.com/atlas) account
-- (Optional) Stripe account for payment integration
+### `npm run build`
 
-### Installation
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-1. *Clone the Repository*:
-   bash
-   git clone https://github.com/yourusername/SBFoods.git
-   cd SBFoods
-   
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-2. *Install Dependencies*:
-   - For the server:
-     bash
-     cd server
-     npm install
-     
-   - For the client:
-     bash
-     cd ../client
-     npm install
-     
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-3. *Set Up Environment Variables*:
-   Create a .env file in the server directory and add your configuration:
-   plaintext
-   PORT=8000
-   MONGO_URI=mongodb+srv://<username>:<password>@cluster0.mongodb.net/sbfoods?retryWrites=true&w=majority
-   JWT_SECRET=your_jwt_secret
-   STRIPE_SECRET_KEY=your_stripe_secret_key
-   
+### `npm run eject`
 
-4. *Run the App*:
-   - Start the backend server:
-     bash
-     cd server
-     npm start
-     
-   - Start the frontend:
-     bash
-     cd ../client
-     npm start
-     
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-5. *Access the Application*:
-   Open your browser and go to http://localhost:3000 to view the app.
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-## Folder Structure 📁
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-- */client* - Contains all frontend React code.
-- */server* - Contains all backend Express code.
-- */config* - Holds configuration files for database and authentication.
-- */models* - Defines MongoDB models (e.g., User, Order, Food Item).
-- */controllers* - Logic for handling API routes.
-- */routes* - Defines API routes.
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Future Enhancements 🌟
+## Learn More
 
-- *Advanced Filtering*: Filter items by diet preferences, ratings, and price range.
-- *Rating & Review*: Allow users to rate and review dishes.
-- *Real-Time Notifications*: Notify users about delivery status updates.
-- *Multiple Payment Options*: Expand payment options (e.g., PayPal, Apple Pay).
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-## Contact 📬
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-Feel free to reach out for questions or contributions!
+### Code Splitting
 
-- *Email*: support@sbfoods.com
-- *GitHub*: https://github.com/kamireddypavani/sb-foods.git
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
